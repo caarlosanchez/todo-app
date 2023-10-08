@@ -1,0 +1,43 @@
+select {
+  margin-bottom: 32px;
+  padding: 8px 0;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.terms-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 12px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+.signup-container button {
+  font-weight: 400;
+  color: white;
+  margin-top: 8px;
+}
+
+.avatar-container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.avatar-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-container input {
+  border: none;
+}

@@ -1,0 +1,20 @@
+button {
+  width: 100%;
+  padding: 8px;
+  background-color: #24a3b6;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.button-error {
+  background-color: #d93649;
+}
+
+.button-selected {
+  border: 1px solid black;
+}
+
+.button span {
+  font-family: "Montserrat", sans-serif;
+}

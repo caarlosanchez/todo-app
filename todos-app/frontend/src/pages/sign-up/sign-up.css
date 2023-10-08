@@ -1,0 +1,19 @@
+select {
+  margin-bottom: 32px;
+  padding: 8px 0;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.terms-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin: 12px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}

@@ -1,0 +1,24 @@
+label {
+  display: block;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+input {
+  margin-bottom: 32px;
+  padding: 8px 0;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.error {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  color: lightcoral;
+  margin-bottom: 10px;
+}

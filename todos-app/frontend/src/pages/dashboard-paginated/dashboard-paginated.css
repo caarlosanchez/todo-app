@@ -1,0 +1,27 @@
+.pagination-container {
+  text-align: center;
+  display: inline-block;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+}
+
+.pagination li {
+  background-color: #24a3b6;
+  padding: 8px 8px;
+  border-radius: 4px;
+}
+
+.pagination .selected {
+  border: 1px solid black;
+}
+
+.pagination a {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}

@@ -1,0 +1,47 @@
+.todos-container {
+  margin: 16px 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  background-color: white;
+  color: black;
+}
+
+.todo-item p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.todo-text-done {
+  text-decoration: line-through;
+}
+
+.todo-item button {
+  position: relative;
+  top: 1px;
+  background-color: transparent;
+  padding: 0;
+}
+
+.todo-item img {
+  width: 16px;
+  height: 16px;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.todo-actions input {
+  padding: 0;
+  margin: 0;
+}
